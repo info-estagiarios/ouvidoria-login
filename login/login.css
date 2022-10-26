@@ -186,6 +186,12 @@
 
 /* ---- AQUI COMEÇA A RESPONSIVIDADE DO SITE ---- */
 
+@media screen and (width: 1024px) and (orientation: landscape){
+    .login{
+        width: 80%;
+    }
+}
+
 @media screen and (max-width: 900px) and (orientation: landscape){
     .container-left{
         width: 100%;
