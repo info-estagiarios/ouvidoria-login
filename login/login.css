@@ -62,9 +62,6 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-}
-
-.input-senha input{
     margin-left: 1.2rem;
 }
 
