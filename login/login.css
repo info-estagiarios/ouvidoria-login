@@ -282,7 +282,7 @@
 
     .botoes .entrar,
     .botoes .visitante{
-        width: 8rem;
+        width: 8.5rem;
     }
 
     .login{
@@ -295,7 +295,7 @@
     }
 }
 
-@media screen and (max-width: 400px) and (orientation: portrait){
+@media screen and (max-width: 391px) and (orientation: portrait){
     .input-email input,
     .input-senha input{
         width: 15.5rem;
@@ -303,7 +303,7 @@
 
     .botoes .entrar,
     .botoes .visitante{
-        width: 8.5rem;
+        width: 7.5rem;
     }
 
     .login{
