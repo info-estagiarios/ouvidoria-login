@@ -10,7 +10,7 @@
 <body>
     <main class="container">
         <div class="container-left">
-            <div class="container-login">
+            <div class="container-login" id="acessar">
                 <div class="login">
                     <h1>Login</h1>
                     <p>Lorem ipsum dolor sit amet.</p>
@@ -42,7 +42,49 @@
                     </div>
 
                     <div class="cadastrar">
-                        <p>Lorem ipsum dolor sit. <span>Lorem, ipsum.</span></p>
+                        <p>Lorem ipsum dolor sit. <span id="cadastrar">Lorem, ipsum.</span></p>
+                    </div>
+                </form>
+            </div>
+
+            <div class="container-login container-cadastrar" id="cadaster">
+                <div class="cadastro">
+                    <h1>Cadastro</h1>
+                    <p>Lorem ipsum dolor sit.</p>
+                </div>
+
+                <form action="" class="formulario-cadastro">
+                    <div class="dados-login">
+                        <h1>Dados de Login</h1>
+                    </div>
+
+                    <div class="dados-cadastro">
+                        <input type="email" name="" id="" placeholder="Informe o seu E-mail">
+                        <input type="password" name="" id="" class="senha" placeholder="Senha">
+                        <input type="password" name="" id="" class="repetir" placeholder="Repetir Senha">
+                    </div>
+
+                    <div class="contato">
+                        <h1>Dados de Contato</h1>
+                    </div>
+
+                    <div class="dados-contato">
+                        <input type="text" name="" id="" class="nome" placeholder="Informe o seu nome">
+                        <input type="date" name="" id="" placeholder="Nascimento">
+                        <select name="" id="">
+                            <option value="sexo">Sexo</option>
+                            <option value="masculino">Masculino</option>
+                            <option value="feminino">Feminino</option>
+                            <option value="naodizer">Prefiro não informar</option>
+                        </select>
+                        <input type="number" name="" id="" class="cep" placeholder="Cep">
+                        <input type="text" name="" id="" class="endereco" placeholder="Endereço">
+                        <input type="number" name="" id="" class="numero" placeholder="Nº">
+                    </div>
+
+                    <div class="cadastrar">
+                        <input type="submit" value="Cadastrar">
+                        <p>Lorem ipsum dolor sit <span id="login">amet.</span></p>
                     </div>
                 </form>
             </div>
@@ -55,6 +97,6 @@
     
 
 
-    <script src="login/login.js"></script>
+    <script src="./login.js"></script>
 </body>
 </html>
