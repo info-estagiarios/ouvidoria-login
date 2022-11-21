@@ -31,3 +31,20 @@ ver.addEventListener('click', function(){
     pass.style.display = "none"
     texto.style.display = "block"
 })
+
+var cadastrar = document.querySelector('.container-cadastrar')
+var login = document.querySelector('.container-login')
+var cadastrarUsuario = document.querySelector('#cadastrar')
+var loginUsuario = document.querySelector('#login')
+
+cadastrarUsuario.addEventListener('click', function(){
+    login.style.display = "none"
+    cadastrar.style.display = "flex"
+
+    console.log("cadastrou")
+})
+
+loginUsuario.addEventListener('click', function(){
+    login.style.display = "flex"
+    cadastrar.style.display = "none"
+})
