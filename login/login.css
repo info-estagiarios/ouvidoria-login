@@ -664,6 +664,27 @@
     }
 }
 
+
+@media screen and (max-width: 838px) and (orientation: landscape){
+    .dados-cadastro input[type="password"]{
+        width: 16.25rem;
+    }
+    
+.dados-contato .nome{
+    width: 24rem;
+}
+.dados-contato input[type="date"]{
+    width: 8rem;
+}
+
+.dados-contato .cep{
+    width: 5.5rem;
+}
+.cadastrar input[type="submit"]{
+    width: 32rem;
+}
+}
+
 @media screen and (max-width: 821px) and (orientation: portrait){
     .container-left{
         width: 100%;
