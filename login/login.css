@@ -423,7 +423,7 @@
     height: 3.5rem;
 }
 
-@media screen and (max-width: 900px) and (orientation: landscape){
+@media screen and (max-width: 915px) and (orientation: landscape){
     .container-left{
         width: 100%;
         height: 100vh;
@@ -456,35 +456,85 @@
         display: none;
     }
 
-    .dados-cadastro input[type="password"]{
-        width: 12rem;
-        height: 2.75rem;
+    .container-cadastrar{
+        display: flex;
+        gap: 0.3rem;
     }
 
-    
+    .dados-cadastro input[type="password"]{
+        width: 17.75rem;
+        height: 2rem;
+    }
+
+    .dados-contato input[type="date"]{
+        height: 2rem;
+    }
     .dados-contato input[type="date"],
     .dados-contato select{
-        width: 12.5rem;
+        width: 8rem;
+        font-size: 0.8rem;
     }
     
 
-.dados-cadastro input[type="email"],
+    .dados-cadastro input[type="email"]{
+        width: 36rem;
+        height: 2rem;
+        font-size: 0.8rem;
+    }
 .dados-contato .nome{
-    width: 26rem;
-    height: 2.75rem;
+    width: 28rem;
+    height: 2rem;
+    font-size: 0.8rem;
 }
 
+    .dados-login h1,
+    .contato h1{
+        font-size: 1rem;
+    }
 
+    .cadastro h1{
+        font-size: 1.25rem;
+    }
+
+    .cadastro{
+        display: flex;
+        gap: 0;
+    }
+
+    .cadastro,
+    .dados-login,
+    .contato{
+        margin-right: 9rem;
+    }
+
+
+.dados-contato .numero{
+    height: 2rem;
+    font-size: 0.8rem;
+}
 .dados-contato .cep,
 .dados-contato .endereco{
-    width: 10rem;
-    height: 2.75rem;
+    height: 2rem;
+    font-size: 0.8rem;
 }
 
+.dados-contato .cep{
+    width: 7rem;
+}
+
+.dados-contato .endereco{
+    width: 16rem;
+}
 
 .cadastrar input[type="submit"]{
     width: 26rem;
-    height: 3.5rem;
+    height: 3rem;
+}
+.dados-cadastro,
+.dados-contato,
+.cadastrar{
+    display: flex;
+    gap: 0.5rem;
 }
 }
 
@@ -577,6 +627,35 @@
 .cadastrar p{
     font-size: 0.75rem;
 }
+}
+
+@media screen and (max-width: 851px) and (orientation: landscape){
+    .dados-cadastro input[type="password"]{
+        width: 16.75rem;
+        height: 2rem;
+        font-size: 0.7rem;
+    }
+    .dados-contato input[type="date"]{
+        width: 8rem;
+        height: 2rem;
+        font-size: 0.7rem;
+    }
+    .dados-contato .nome{
+        width: 25rem;
+    }
+
+    .dados-contato .cep,
+    .dados-contato .numero{
+        font-size: 0.7rem;
+    }
+
+    .dados-contato .endereco{
+        width: 14rem;
+        font-size: 0.7rem;
+    }
+    .cadastrar input[type="submit"]{
+        width: 33.5rem;
+    }
 }
 
 @media screen and (max-width: 821px) and (orientation: portrait){
