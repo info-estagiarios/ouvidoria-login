@@ -896,6 +896,39 @@
 
 }
 
+
+@media screen and (max-width: 650px) and (orientation: portrait){
+    
+    .dados-cadastro input[type="password"]{
+        width: 12.25rem;
+    }
+
+    .dados-contato .nome{
+        width: 15rem;
+    }
+    
+    .dados-contato input[type="date"]{
+        width: 9rem;
+    }
+    .dados-contato select{
+        width: 10rem;
+    }
+
+    .dados-contato .cep{
+        width: 10rem;
+    }
+
+    .dados-contato .endereco{
+        width: 15rem;
+    }
+
+    .cadastro,
+    .dados-login,
+    .contato{
+        margin-right: 8rem;
+    }
+}
+
 @media screen and (max-width: 550px) and (orientation: portrait){
     .input-email input,
     .input-senha input{
