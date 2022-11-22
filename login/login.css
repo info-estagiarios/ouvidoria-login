@@ -1080,6 +1080,12 @@
 }
 }
 
+@media screen and (max-width: 515px) and (orientation: portrait){
+    .dados-contato .nome{
+        width: 20rem;
+    }
+}
+
 @media screen and (max-width: 470px) and (orientation: landscape){
     .container-login{
         width: 90%;
