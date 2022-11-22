@@ -629,7 +629,8 @@
 }
 }
 
-@media screen and (max-width: 851px) and (orientation: landscape){
+
+@media screen and (max-width: 896px) and (orientation: landscape){
     .dados-cadastro input[type="password"]{
         width: 16.75rem;
         height: 2rem;
@@ -655,6 +656,11 @@
     }
     .cadastrar input[type="submit"]{
         width: 33.5rem;
+    }
+}
+@media screen and (width: 844px) and (orientation: landscape){
+    .dados-cadastro input[type="password"]{
+        width: 16.5rem;
     }
 }
 
