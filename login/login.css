@@ -685,6 +685,74 @@
 }
 }
 
+@media screen and (max-width: 825px) and (orientation: landscape){
+    .dados-cadastro input[type="password"]{
+        width: 15.5rem;
+    }
+    
+.dados-contato .nome{
+    width: 24rem;
+}
+.dados-contato input[type="date"]{
+    width: 7rem;
+}
+
+.dados-contato .cep{
+    width: 5.5rem;
+}
+.cadastrar input[type="submit"]{
+    width: 32rem;
+}
+}
+@media screen and (max-width: 800px) and (orientation: landscape){
+    .dados-cadastro input[type="password"]{
+        width: 14.5rem;
+    }
+    
+.dados-contato .nome{
+    width: 22rem;
+}
+.dados-contato input[type="date"]{
+    width: 7rem;
+}
+
+
+.dados-contato select{
+    width: 6rem;
+}
+
+.dados-contato .cep{
+    width: 5.5rem;
+}
+.cadastrar input[type="submit"]{
+    width: 32rem;
+}
+}
+
+@media screen and (max-width: 775px) and (orientation: landscape){
+    .dados-cadastro input[type="password"]{
+        width: 14rem;
+    }
+    
+.dados-contato .nome{
+    width: 22rem;
+}
+.dados-contato input[type="date"]{
+    width: 6.5rem;
+}
+
+
+.dados-contato select{
+    width: 5.5rem;
+}
+
+.dados-contato .cep{
+    width: 5.5rem;
+}
+.cadastrar input[type="submit"]{
+    width: 32rem;
+}
+}
 @media screen and (max-width: 821px) and (orientation: portrait){
     .container-left{
         width: 100%;
