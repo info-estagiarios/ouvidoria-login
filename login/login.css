@@ -724,7 +724,13 @@
     }
 }
 
-@media screen and (max-width: 740px) and (orientation: landscape){
+@media screen and (max-width: 768px){
+    .dados-cadastro input[type="password"]{
+        width: 12.5rem;
+    }
+}
+
+@media screen and (max-width: 768px) and (orientation: landscape){
     .dados-cadastro,
     .dados-contato,
     .cadastrar{
