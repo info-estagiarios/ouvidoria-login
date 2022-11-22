@@ -1077,6 +1077,10 @@
     width: 5.75rem;
 }
 
+.dados-contato .nome{
+    width: 100rem;
+}
+
 
 .cadastrar input[type="submit"]{
     width: 17.75rem;
