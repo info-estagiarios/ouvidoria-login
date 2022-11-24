@@ -871,6 +871,14 @@
         height: 80vh;
     }
 }
+
+@media screen and (width: 768px) and (orientation: landscape){
+    .imagem-fundo img{
+        width: 100%;
+        margin-right: -5rem;
+    }
+}
+
 @media screen and (max-width: 768px) and (orientation: landscape){
     .dados-cadastro,
     .dados-contato,
