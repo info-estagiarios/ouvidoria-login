@@ -16,6 +16,12 @@
     flex-direction: row;
 }
 
+.imagem-fundo{
+    position: absolute;
+    z-index: -1;
+    display: none;
+}
+
 .container-left{
     width: 50%;
     height: 100vh;
@@ -433,9 +439,10 @@
     }
 
     .container-login{
-        height: 95vh;
+        height: 100vh;
         border-radius: 16px;
         box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+        background-color: #fff;
     }
 
     .input-email input,
@@ -762,6 +769,16 @@
         justify-content: center;
     }
 
+    .imagem-fundo{
+        display: block;
+    }
+
+    .imagem-fundo img{
+        width: 100%;
+        height: 70vh;
+        margin-top: -16rem;
+    }
+
     .container-login{
         background-color: #fff;
         box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
@@ -825,6 +842,13 @@
     }
 }
 
+@media screen and (width: 768px) and (orientation: portrait){
+    .imagem-fundo img{
+        width: 100%;
+        height: 80vh;
+        margin-left: 3rem;
+    }
+}
 @media screen and (max-width: 768px) and (orientation: landscape){
     .dados-cadastro,
     .dados-contato,
