@@ -675,11 +675,6 @@
     }
 }
 
-@media screen and (max-height: 645px) and (orientation: portrait){
-    .imagem-fundo img{
-        margin-left: rem;
-    }
-}
 @media screen and (width: 844px) and (orientation: landscape){
     .dados-cadastro input[type="password"]{
         width: 16.5rem;
@@ -1236,6 +1231,21 @@
 }
 }
 
+@media screen and (max-height: 425px) and (max-width: 500px){
+    .dados-cadastro input[type="password"]{
+        width: 8rem;
+        height: 2rem;
+    }
+
+    
+.cadastrar input[type="submit"]{
+    width: 18rem;
+}
+
+    .imagem-fundo{
+        display: none;
+    }
+}
 
 @media screen and (max-width: 376px) and (orientation: portrait){
     .dados-cadastro input[type="password"],
