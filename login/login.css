@@ -1188,6 +1188,22 @@
 }
 }
 
+@media screen and (max-width: 410px) and (orientation: portrait){
+    .dados-cadastro input[type="password"]{
+        width: 7.25rem;
+    }
+    .dados-contato .cep{
+        width: 5rem;
+    }
+    
+    .dados-contato input[type="date"]{
+        width: 9rem;
+    }
+    .dados-contato select{
+        width: 7.3rem;
+    }
+}
+
 @media screen and (max-width: 400px) and (orientation: portrait){
     .input-email input,
     .input-senha input{
