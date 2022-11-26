@@ -441,6 +441,72 @@
     height: 3.5rem;
 }
 
+@media screen and (max-width: 980px) and (orientation: landscape){
+    .dados-cadastro input[type="password"]{
+        width: 9rem;
+    }
+
+    .dados-contato input[type="date"]{
+        width: 9.5rem;
+    }
+
+    .dados-contato select{
+        width: 8.5rem;
+    }
+
+    .dados-contato .cep{
+        width: 5rem;
+    }
+
+    .dados-contato .numero{
+        width: 4rem;
+    }
+
+    .cadastro,
+    .dados-login,
+    .contato{
+        margin-right: 4rem;
+    }
+
+    .dados-login h1,
+    .contato h1{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 980px) and (orientation: landscape){
+    .dados-cadastro input[type="password"]{
+        width: 8rem;
+    }
+
+    .dados-contato input[type="date"]{
+        width: 8.75rem;
+    }
+
+    .dados-contato select{
+        width: 8.5rem;
+    }
+
+    .dados-contato .cep{
+        width: 5rem;
+    }
+
+    .dados-contato .numero{
+        width: 3rem;
+    }
+
+    .cadastro,
+    .dados-login,
+    .contato{
+        margin-right: 4rem;
+    }
+
+    .dados-login h1,
+    .contato h1{
+        font-size: 1rem;
+    }
+}
+
 @media screen and (max-width: 915px) and (orientation: landscape){
     .container-left{
         width: 100%;
