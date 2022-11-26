@@ -1151,6 +1151,25 @@
     }
 }
 
+
+@media screen and (max-width: 625px) and (orientation: portrait){
+    
+    .dados-cadastro input[type="password"]{
+        width: 11rem;
+    }
+    .dados-contato input[type="date"]{
+        width: 7rem;
+    }
+
+    .cadastrar input[type="submit"]{
+        width: 22rem;
+    }
+
+    .imagem-fundo img{
+        height: 80vh;
+    }
+}
+
 @media screen and (max-width: 550px) and (orientation: portrait){
     .input-email input,
     .input-senha input{
