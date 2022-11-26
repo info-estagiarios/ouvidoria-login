@@ -329,6 +329,31 @@
 
 /* ---- AQUI COMEÇA A RESPONSIVIDADE DO SITE ---- */
 
+@media screen and (min-width: 1440px) and (orientation: landscape){
+    
+}
+
+@media screen and (min-width: 1280px){
+    .cadastro,
+    .dados-login,
+    .contato{
+        margin-left: 3.75rem;
+    }
+}
+
+@media screen and (width: 1180px) and (orientation: landscape){
+    .login{
+        width: 70%;
+    }
+
+    .cadastro,
+    .dados-login,
+    .contato{
+        margin-right: 4rem;
+    }
+    
+}
+
 @media screen and (min-width: 1025px){
 .dados-cadastro input[type="password"],
 .dados-contato input[type="date"],
@@ -346,19 +371,6 @@
 .dados-contato .endereco{
     width: 6.8rem;
 }
-}
-
-@media screen and (width: 1180px) and (orientation: landscape){
-    .login{
-        width: 70%;
-    }
-
-    .cadastro,
-    .dados-login,
-    .contato{
-        margin-right: 4rem;
-    }
-    
 }
 
 @media screen and (width: 1024px) and (orientation: landscape){
@@ -673,6 +685,14 @@
         width: 100%;
         margin-left: 2rem;
     }
+
+    .imagem-fundo img{
+        margin-left: 3.5rem;
+    }
+
+    .container-login{
+        margin-top: 4rem;
+    }
 }
 
 @media screen and (width: 844px) and (orientation: landscape){
@@ -769,8 +789,18 @@
 .cadastrar input[type="submit"]{
     width: 32rem;
 }
+
+.imagem-fundo img{
+    margin-left: 0.1rem;
 }
-@media screen and (max-width: 821px) and (orientation: portrait){
+
+.container-login{
+    margin-left: 2rem;
+}
+}
+
+
+@media screen and (max-width: 912px) and (orientation: portrait){
     .container-left{
         width: 100%;
         height: 100vh;
@@ -844,6 +874,33 @@
     .dados-login,
     .contato{
         margin-right: 3.25rem;
+    }
+}
+
+
+@media screen and (width: 912px) and (orientation: portrait){
+    .dados-contato input[type="date"],
+    .dados-contato select{
+        width: 9.6rem;
+    }
+
+    .dados-contato .cep{
+        width: 5rem;
+    }
+
+    .dados-contato .endereco{
+        width: 20rem;
+    }
+
+    .cadastro,
+    .dados-login,
+    .contato{
+        margin-left: 4rem;
+    }
+
+    .imagem-fundo img{
+        height: 70vh;
+        margin-top: -50rem;
     }
 }
 
