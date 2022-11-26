@@ -555,6 +555,29 @@
     display: flex;
     gap: 0.5rem;
 }
+
+.imagem-fundo{
+    display: block;
+}
+
+.imagem-fundo img{
+    width: 100%;
+    margin-left: 2rem;
+}
+
+.imagem-fundo img{
+    margin-left: 3.5rem;
+}
+
+.container-login{
+    margin-top: 4rem;
+}
+}
+
+@media screen and (width: 915px) and (orientation: landscape){
+    .imagem-fundo img{
+        margin-left: 3.8rem;
+    }
 }
 
 @media screen and (max-width: 900px) and (orientation: landscape){
@@ -676,28 +699,19 @@
     .cadastrar input[type="submit"]{
         width: 33.5rem;
     }
+}
 
-    .imagem-fundo{
-        display: block;
-    }
-
-    .imagem-fundo img{
-        width: 100%;
-        margin-left: 2rem;
-    }
-
-    .imagem-fundo img{
-        margin-left: 3.5rem;
+@media screen and (max-width: 851px) and (orientation: landscape){
+    .dados-cadastro input[type="password"]{
+        width: 16.5rem;
     }
 
     .container-login{
-        margin-top: 4rem;
+        margin-left: 0rem;
     }
-}
 
-@media screen and (width: 844px) and (orientation: landscape){
-    .dados-cadastro input[type="password"]{
-        width: 16.5rem;
+    .imagem-fundo img{
+        margin-left: 2.3rem;
     }
 }
 
@@ -1089,6 +1103,19 @@
         line-height: 0.25rem;
     }
 
+    .container-login{
+        margin-right: 2rem;
+    }
+
+    .formulario-cadastro{
+        display: flex;
+        gap: 0.25rem;
+    }
+
+
+    .dados-cadastro input[type="password"]{
+        width: 12.75rem;
+    }
 }
 
 
@@ -1142,9 +1169,16 @@
     .cadastro,
     .dados-login,
     .contato{
-        margin-right: 5rem;
+        margin-right: 3.75rem;
     }
 
+    .dados-cadastro input[type="email"]{
+        width: 19.25rem;
+    }
+
+    .dados-contato .nome{
+        width: 19.25rem;
+    }
     
     .dados-cadastro input[type="password"]{
         width: 9rem;
