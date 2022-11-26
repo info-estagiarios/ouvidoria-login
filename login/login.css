@@ -1644,3 +1644,50 @@
         height: 2.75rem;
     }
 }
+
+@media screen and (max-height: 168px) and (max-width: 896px){
+    .cadastro,
+    .dados-login,
+    .contato{
+        display: none;
+    }
+
+    .dados-cadastro input[type="email"],
+    .dados-cadastro input[type="password"],
+    .dados-contato .nome,
+    .dados-contato input[type="date"],
+    .dados-contato select,
+    .dados-contato .cep,
+    .dados-contato .endereco,
+    .dados-contato .numero{
+        font-size: 0.5rem;
+    }
+    
+    .dados-cadastro input[type="email"]{
+        width: 13rem;
+    }
+
+    .dados-cadastro input[type="password"]{
+        width: 7rem;
+    }
+
+    .dados-contato .nome{
+        width: 9rem;
+    }
+
+    .dados-contato input[type="date"]{
+        width: 2.5rem;
+    }
+
+    .dados-contato .cep{
+        width: 5rem;
+    }
+
+    .dados-contato select{
+        width: 5.5rem;
+    }
+
+    .cadastrar{
+        display: none;
+    }
+}
