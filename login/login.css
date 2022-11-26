@@ -491,6 +491,10 @@
         width: 5rem;
     }
 
+    .cadastro h1{
+        font-size: 1.25rem;
+    }
+
     .dados-contato .numero{
         width: 3rem;
     }
