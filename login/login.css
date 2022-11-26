@@ -1553,6 +1553,17 @@
 }
 }
 
+@media screen and (max-height: 379px) and (max-width: 900px){
+    .cadastro,
+    .dados-login,
+    .contato{
+        display: none;
+    }
+    .cadastrar{
+        display: none;
+    }
+}
+
 @media screen and (max-width: 340px) and (orientation: portrait){
 
     .input-email input,
@@ -1646,11 +1657,6 @@
 }
 
 @media screen and (max-height: 168px) and (max-width: 896px){
-    .cadastro,
-    .dados-login,
-    .contato{
-        display: none;
-    }
 
     .dados-cadastro input[type="email"],
     .dados-cadastro input[type="password"],
