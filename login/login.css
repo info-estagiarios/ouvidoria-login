@@ -474,7 +474,7 @@
     }
 }
 
-@media screen and (max-width: 980px) and (orientation: landscape){
+@media screen and (max-width: 1023px) and (orientation: landscape){
     .dados-cadastro input[type="password"]{
         width: 8rem;
     }
@@ -1184,6 +1184,44 @@
     }
 }
 
+
+@media screen and (max-width: 643px) and (orientation: landscape){
+    .dados-cadastro input[type="password"]{
+        width: 12rem;
+    }
+
+    .dados-contato .nome{
+        width: 17rem;
+    }
+
+    .dados-cadastro,
+    .dados-login{
+        display: flex;
+        gap: 1rem;
+    }
+
+    .formulario-cadastro{
+        display: flex;
+        gap: 1rem;
+    }
+
+    .cadastro h1{
+        font-size: 2rem;
+    }
+
+    .cadastro p{
+        font-size: 0.8rem;
+    }
+
+    .dados-login h1,
+    .contato h1{
+        font-size: 1.75rem;
+    }
+
+    .cadastrar input[type="submit"]{
+        width: 25rem;
+    }
+}
 
 @media screen and (max-width: 650px) and (orientation: portrait){
     
