@@ -495,6 +495,11 @@
         font-size: 1.25rem;
     }
 
+    .formulario-cadastro{
+        display: flex;
+        gap: 0.75rem;
+    }
+
     .dados-contato .numero{
         width: 3rem;
     }
