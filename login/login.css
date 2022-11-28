@@ -323,21 +323,17 @@
 .container-right{
     width: 50%;
     height: 100vh;
-    background-image: url(../maranguape-img-login1.png);
+    background-image: url(../img/maranguape-img-login1.png);
     background-size: cover;
 }
 
 /* ---- AQUI COMEÇA A RESPONSIVIDADE DO SITE ---- */
 
-@media screen and (min-width: 1440px) and (orientation: landscape){
-    
-}
-
 @media screen and (min-width: 1280px){
     .cadastro,
     .dados-login,
     .contato{
-        margin-left: 3.75rem;
+        margin-left: -3rem;
     }
 }
 
@@ -776,7 +772,7 @@
     }
 }
 
-@media screen and (max-width: 851px) and (orientation: landscape){
+@media screen and (max-width: 855px) and (orientation: landscape){
     .dados-cadastro input[type="password"]{
         width: 16.5rem;
     }
@@ -786,7 +782,7 @@
     }
 
     .imagem-fundo img{
-        margin-left: 2.3rem;
+        margin-left: 2.5rem;
     }
 }
 
