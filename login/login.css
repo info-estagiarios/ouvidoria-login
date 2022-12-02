@@ -237,6 +237,12 @@
     flex-direction: row;
     flex-wrap: wrap;
     gap: 1rem;
+    text-align: center;
+}
+
+.dados-cadastro p{
+    font-size: 0.65rem;
+    display: none;
 }
 
 .dados-cadastro input[type="email"],
@@ -323,7 +329,7 @@
 .container-right{
     width: 50%;
     height: 100vh;
-    background-image: url(../img/maranguape-img-login1.png);
+    background-image: url(/img/maranguape-img-login1.png);
     background-size: cover;
 }
 
@@ -333,7 +339,26 @@
     .cadastro,
     .dados-login,
     .contato{
-        margin-left: -3rem;
+        margin-left: 6rem;
+    }
+
+    .dados-cadastro{
+        width: 70%;
+    }
+
+    .dados-contato{
+        width: 70%;
+    }
+
+    .dados-cadastro input[type="email"],
+    .dados-cadastro input[type="password"],
+    .dados-contato input[type="text"],
+    .dados-contato input[type="date"],
+    .dados-contato select,
+    .dados-contato input[type="number"],
+    .dados-contato input[type="text"],
+    .dados-contato input[type="number"]{
+        font-size: 0.75rem;
     }
 }
 
